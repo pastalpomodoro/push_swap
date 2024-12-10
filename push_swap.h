@@ -38,6 +38,10 @@ int rra(t_num **pile_a);
 int rrb(t_num **pile_b);
 int rrr(t_num **pile_a, t_num **pile_b);
 
+//algo utils
+int if_smaller(t_num *pile, int n);
+int if_bigger(t_num *pile, int n);
+
 void test(t_num **pile_a, t_num **pile_b);
 
 #endif
